@@ -6,7 +6,7 @@ venv の site-packages から第三者ライセンス本文を収集し、
 licenses/ にコピー + THIRD_PARTY_NOTICES.txt を生成します。
 
 使い方（venv を有効化した PowerShell で）:
-  python python C:\GitHub\licenses.py --clean ← 出力ディレクトリを事前に削除して作り直す
+  python python 本ファイルのフルパス.py --clean ← 出力ディレクトリを事前に削除して作り直す
 
 出力:
   release/licenses/               : ライセンス本文（パッケージ名プレフィックス付き）
